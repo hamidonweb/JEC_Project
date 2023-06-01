@@ -1,0 +1,87 @@
+body{
+
+    background-color: #081b29;
+
+
+}
+
+
+.header .logo img{
+    height: 6rem;
+    
+}
+
+
+.header .navbar a{
+
+margin:0 1rem;
+font-size:1.8rem;
+color:#fff;
+text-decoration: none;
+
+
+}
+
+.header .flex{
+
+display:flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+padding-top:1.5rem;
+padding-bottom: 1.5rem;
+
+
+}
+
+
+.header .navbar a:hover{
+
+    margin:0 1rem;
+    font-size:1.8rem;
+    color:#00abf0;
+    
+    
+    }
+    html{
+        font-weight: 62.5%;
+        overflow: hidden;
+        scroll-padding-top: 9rem;
+        scroll-behavior: smooth;
+    }
+
+    section{
+        padding: 3rem 2rem;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .home-container{
+        background: url(../fahad_imiges/banner3.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home .content{
+        max-width: 60rem;
+    }
+
+    .home .content h3{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: #ededed;
+    }
+
+    .home .content h1{
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: #ededed;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+        line-height: 1.8;
+        padding: 1rem 0;
+        color: #ededed;
+    }

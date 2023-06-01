@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(231, 241, 230, 0);
+}
+
+.header.logo img{
+    height: 1rem;
+    background-color: black;
+    border-radius: 50%;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(218, 110, 2);
+}
+.header .flex{
+    display:flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+padding-top:1rem;
+padding-top:14px;
+padding-bottom: 1rem;
+}
+
+.header .navbar a:hover{
+
+    margin:0 1rem;
+    font-size:1.8rem;
+    color:#000000;
+}
+html{
+    
+font-size:62.5%;
+overflow-x:hidden;
+scroll-padding-top:9rem;
+scroll-behavior: smooth;
+}
+
+section{
+    padding:3rem 2rem;
+margin:0 auto;
+max-width:1200px;
+}
+.header .icons div{
+    color:rgb(219, 110, 0);
+font-size:2.5rem;
+margin-left:2rem;
+cursor:pointer;
+}
+
+.home .content{
+
+    max-width: 60rem;
+}
+.home .content{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(214, 35, 0) ;
+}
+    
+    
+.home-container{
+    background: url(../images/bg_cover.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
