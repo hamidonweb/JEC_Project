@@ -1,0 +1,65 @@
+.header .navbar a{
+    margin: 0.2rem;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+
+.header .navbar a:hover{
+    margin: 0.2rem;
+    font-size: 1.5rem;
+    color: #4385f5;
+}
+
+.header .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 1.5rem;
+    padding-top: 14px;
+    padding-top: 1.5rem;
+}
+
+html{
+    font-size: 85.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header .icons div{
+    font-size: 25px;
+    margin-left: 2rem;
+    cursor:pointer;
+    color: #4385f5;
+}
+
+.banner-container{
+    background-position: center;
+    background: url(../images/cropped-cropped-dark-blue-background-has-small-blue-dust-particle-that-shines-circular-motion-explosion-light-ray-beam_35672-1405-1-2\ \(1\).jpg) no-repeat;
+    background-size:cover;
+    padding: 5%;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.home .content h2{
+    font-size: 2rem;
+    color: white;
+}
