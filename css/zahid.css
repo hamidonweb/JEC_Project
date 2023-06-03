@@ -11,7 +11,7 @@ body{
     margin: 0 1rem;
     text-decoration: none;
     font-size: 2rem;
-    color: rgb(218, 110, 2);
+    color: rgb(10, 104, 34);
 }
 .header .flex{
     display:flex;
@@ -27,7 +27,7 @@ padding-bottom: 1rem;
 
     margin:0 1rem;
     font-size:1.8rem;
-    color:#000000;
+    color:#1bec5a;
 }
 html{
     
