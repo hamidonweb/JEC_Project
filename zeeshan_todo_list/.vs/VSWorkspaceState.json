@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\zeeshan_todo_list",
+    "\\zeeshan_todo_list\\bin",
+    "\\zeeshan_todo_list\\Controllers",
+    "\\zeeshan_todo_list\\Models",
+    "\\zeeshan_todo_list\\obj",
+    "\\zeeshan_todo_list\\Properties",
+    "\\zeeshan_todo_list\\Views",
+    "\\zeeshan_todo_list\\Views\\Home",
+    "\\zeeshan_todo_list\\Views\\Shared"
+  ],
+  "SelectedNode": "\\zeeshan_todo_list\\Views\\Home\\Logo.cshtml",
+  "PreviewInSolutionExplorer": false
+}

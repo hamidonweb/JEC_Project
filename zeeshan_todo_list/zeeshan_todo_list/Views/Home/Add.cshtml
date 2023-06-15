@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Add Category";
+
+    List<TbCategory> MyCatList = new List<TbCategory>();
+    
+
+    MyCatList = Model.TbCategory;
+   
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Add Category</h1>
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <form method="post" asp-controller="Home" asp-action="Add">
+             
+
+                <div>
+
+                   
+                      
+                   
+
+                    <label for="exampleInputEmail1" class="form-label">Category</label>
+                    <input type="Text" class="form-control" id="Id" name="Category" required>
+
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+        <p>Add Category</p>
+
+    @foreach (var item in MyCatList)
+    {
+        <h1>@item.Id | @item.Category</h1>
+    }
+
+</div>
+
+

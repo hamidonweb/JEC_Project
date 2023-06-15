@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    List<TbCategory> MyCatList = new List<TbCategory>();
+    List<TbTodo> MyTodoList = new List<TbTodo>();
+
+    MyCatList = Model.TbCategory;
+    MyTodoList = Model.TbTodo;
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To My List</h1>
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <form method="post" asp-controller="Home" asp-action="Index">
+
+                <div class="row">
+
+                    <select id="CategoryId" class="form-control" name="CategoryId">
+                        @foreach (var item in MyCatList)
+                        {
+                            <option value="@item.Id"> @item.Category </option>
+                        }
+
+                        <input type="hidden" id="userid" name="userid" value="@MyTodoList[0].UserId" />
+                        <input type="hidden" id="status" name="status" value="false" />
+                        <input type="hidden" id="sequence" name="sequence" value="@(MyTodoList.Count+1)" />
+                    </select>
+
+                </div>
+
+                <div>
+                    <label for="exampleInputEmail1" class="form-label">Todo</label>
+                    <input type="Text" class="form-control" id="TodoDesc" name="TodoDesc">
+                    
+                </div>
+                
+               
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <p>My Todos</p>
+
+    @foreach (var item in MyTodoList)
+    {
+        <h1>@item.Sequence | @item.TodoDesc</h1>
+    }
+
+</div>
+
+
